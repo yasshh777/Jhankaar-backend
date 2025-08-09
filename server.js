@@ -39,7 +39,7 @@ const app = express();
 // List of allowed origins (add your frontend URLs here)
 const allowedOrigins = [
   'http://localhost:5173',               // Vite local dev server URL
-  'https://your-vercel-frontend.vercel.app'  // Replace with your actual Vercel URL
+  'https://jhankaar-7htu.vercel.app'  // Replace with your actual Vercel URL
 ];
 
 app.use(cors({
